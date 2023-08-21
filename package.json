@@ -1,0 +1,25 @@
+{
+  "name": "MyShopBackEnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-aggregation-debugger": "^1.0.4",
+    "mongoose": "^6.5.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.2"
+  }
+}
