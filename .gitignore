@@ -3,3 +3,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+/vars
+
+*.env
+*.env.example
+*.env.local
+*.env.staging
